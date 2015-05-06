@@ -1,0 +1,110 @@
+body {
+	background color: rgba(186, 186,186, 1);
+	font-family: "Ropa Sans";
+	font-size: 14px;
+}
+
+#footer {
+	background-color: black;
+	color: #aaaaaa;
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+
+#footer a {
+	color: #aaaaaa;
+}
+
+#footer a:hover {
+	color: #dddddd;
+}
+.social a {
+	font-size: 24px;
+}
+
+#wrapper {
+	background-image: url("../images/background/background.jpg");
+	height: 550px;
+	background-size: cover;
+	text-align: center;
+	padding-top: 200px;
+	color: white;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#wrapper h1 {
+	font-size: 50px;
+}
+
+#wrapper h2 {
+	font-size: 18px;
+	margin-bottom: 1em; 
+}
+.spacer {
+	height: 5em;
+}
+
+.feature p {
+	font-weight: 300;
+	letter-spacing: 1 px;
+	font-family: Helvetica;
+	color: black;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0);
+}
+
+.feature img {
+	margin-bottom: 2em;
+}
+
+.navbar-transparent {
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-transparent .navbar-brand,
+.navbar-transparent .navbar-nav > li > a {
+  color: #eeeeee;
+  line-height: 50px;
+}
+
+.navbar-transparent .navbar-nav > li > a:hover,
+.navbar-transparent .navbar-nav > li > a:active,
+.navbar-transparent .navbar-nav > li > a:focus,
+.navbar-transparent .navbar-nav > .open > a,
+.navbar-transparent .navbar-nav > .open > a:hover,
+.navbar-transparent .navbar-nav > .open > a:focus {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar-transparent .navbar-brand:hover,
+.navbar-transparent .navbar-brand:active,
+.navbar-transparent .navbar-brand:focus {
+  color: white;
+}
+.navbar-brand {
+	font-size: 40px;
+	padding-left: 1em;
+	font-family: Ropa Sans;
+
+}
+.navbar-right {
+	font-family: Helvetica; 
+	font-size: 14px
+}
+.search {
+	font-family: Helvetica; 
+	font-size: 14px;
+	padding-left: 10em;
+	padding-right: 10em;
+
+}
+.spacer2 {
+	height: 5em;
+	}
+
+.spacer3 {
+	padding-top: 15em;
+}
+.banner {
+	margin-bottom: 1em;
+}
