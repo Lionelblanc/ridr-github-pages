@@ -102,9 +102,12 @@ body {
 	height: 5em;
 	}
 
-.spacer3 {
+#highlight {
 	padding-top: 15em;
 }
-.banner {
-	margin-bottom: 1em;
+.vertical-spacer {
+	padding-bottom: 15px;
 }
+.spacer3 {
+	height: 5em;
+	}
