@@ -101,10 +101,29 @@ body {
 	padding-right: 10em;
 
 }
-#highlight {
-	padding-top: 15em;
+.highlight p {
+	font-family: Helvetica;
+	color: black;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0);
+}
+.highlight h3 {
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0);
+}
+.highlight img {
+	padding-left: 1em; 
+	padding-right: 1em;
+	padding-top: 1em;
 }
 .vertical-spacer {
-	padding-top: 150em;
+	padding-top: 20em;
 }
-
+.mutuelle {
+	font-family: Helvetica;
+	color: black;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0);
+}
+.newsletter	 {
+	font-family: Helvetica;
+	color: black;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0);
+}
