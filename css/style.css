@@ -41,8 +41,11 @@ body {
 	margin-bottom: 1em; 
 }
 .spacer {
-	height: 5em;
+	height: 10em;
 }
+.spacer2 {
+	height: 5em;
+	}
 
 .feature p {
 	font-weight: 300;
@@ -98,16 +101,10 @@ body {
 	padding-right: 10em;
 
 }
-.spacer2 {
-	height: 5em;
-	}
-
 #highlight {
 	padding-top: 15em;
 }
 .vertical-spacer {
-	padding-top: 8em;
+	padding-top: 150em;
 }
-.spacer3 {
-	height: 5em;
-	}
+
