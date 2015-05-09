@@ -132,3 +132,15 @@ body {
 	font-family: Helvetica;
 }
 
+#proposer {
+	background-image: url("../images/background/background.jpg");
+	height: 550px;
+	background-size: cover;
+	text-align: center;
+	padding-top: 200px;
+	color: black;
+}
+
+#porposer h1 {
+	font-size: 50px;
+}
