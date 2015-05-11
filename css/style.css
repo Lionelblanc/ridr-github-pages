@@ -1,5 +1,5 @@
-#body {
-	background-color: black;
+body {
+	background color: rgba(186, 186,186, 1);
 	font-family: "Ropa Sans";
 	font-size: 14px;
 }
@@ -15,43 +15,30 @@
 	color: #aaaaaa;
 }
 
-#footer a {
-	: #aaaaaa;
-}
-
 #footer a:hover {
 	color: #dddddd;
 }
 .social a {
-	font-size: 30px;
+	font-size: 24px;
 }
 
 #wrapper {
 	background-image: url("../images/background/background.jpg");
-	height: 400px;
+	height: 550px;
 	background-size: cover;
+	text-align: center;
 	padding-top: 200px;
 	color: white;
 	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
-#bio {
-	background-color: black;
-	color: white;
-	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+#wrapper h1 {
+	font-size: 60px;
 }
 
-#bio p {
-	background-color: black;
-	color: white;
-	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-	font-size: 15px;
-	padding-left: 2em;
-}
-
-#bio h2 {
-	font-size: 50px; 
-	padding-left: 1em;
+#wrapper h2 {
+	font-size: 18px;
+	margin-bottom: 1em; 
 }
 .spacer {
 	height: 10em;
@@ -59,6 +46,18 @@
 .spacer2 {
 	height: 5em;
 	}
+
+.feature p {
+	font-weight: 300;
+	letter-spacing: 1 px;
+	font-family: Helvetica;
+	color: black;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0);
+}
+
+.feature img {
+	margin-bottom: 2em;
+}
 
 .navbar-transparent {
 	background-color: rgba(0, 0, 0, 0.7);
@@ -94,5 +93,54 @@
 .navbar-right {
 	font-family: Helvetica; 
 	font-size: 14px
+}
+.search {
+	font-family: Helvetica; 
+	font-size: 14px;
+	padding-left: 10em;
+	padding-right: 10em;
 
+}
+.highlight p {
+	font-family: Helvetica;
+	color: black;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0);
+}
+.highlight h3 {
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0);
+}
+.highlight img {
+	padding-left: 1em; 
+	padding-right: 1em;
+	padding-top: 1em;
 
+}
+.vertical-spacer {
+	padding-top: 20em;
+}
+.mutuelle {
+	font-family: Helvetica;
+	color: black;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0);
+}
+.newsletter	 {
+	font-family: Helvetica;
+	color: black;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0);
+}
+#subscription{
+	font-family: Helvetica;
+}
+
+#proposer {
+	background-image: url("../images/background/background.jpg");
+	height: 550px;
+	background-size: cover;
+	text-align: center;
+	padding-top: 200px;
+	color: black;
+}
+
+#porposer h1 {
+	font-size: 50px;
+}
