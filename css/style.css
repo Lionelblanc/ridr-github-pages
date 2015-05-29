@@ -1,5 +1,4 @@
 #body {
-	background color: rgba(186, 186,186, 1);
 	font-family: "Ropa Sans";
 	font-size: 14px;
 }
@@ -21,7 +20,7 @@
 .social a {
 	font-size: 24px;
 }
-
+	
 #wrapper {
 	background-image: url("../images/background/background.jpg");
 	height: 550px;
@@ -63,10 +62,9 @@
 	background-color: rgba(0, 0, 0, 0.7);
 }
 
-.navbar-transparent .navbar-brand,
-.navbar-transparent .navbar-nav > li > a {
-  color: #eeeeee;
-  line-height: 20px;
+#navbar-brand {
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 .navbar-transparent .navbar-nav > li > a:hover,
@@ -76,7 +74,7 @@
 .navbar-transparent .navbar-nav > .open > a:hover,
 .navbar-transparent .navbar-nav > .open > a:focus {
   color: white;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 1);
 }
 
 .navbar-transparent .navbar-brand:hover,
