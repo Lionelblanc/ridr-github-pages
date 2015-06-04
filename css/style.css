@@ -15,7 +15,7 @@
 }
 
 #footer a:hover {
-	color: #dddddd;
+	color: white;
 }
 .social a {
 	font-size: 24px;
@@ -59,7 +59,7 @@
 }
 
 .navbar-transparent {
-	background-color: rgba(0, 0, 0, 0.7);
+	background-color: rgba(0, 0, 0, 1);
 }
 
 #navbar-brand {
@@ -74,7 +74,6 @@
 .navbar-transparent .navbar-nav > .open > a:hover,
 .navbar-transparent .navbar-nav > .open > a:focus {
   color: white;
-  background-color: rgba(0, 0, 0, 1);
 }
 
 .navbar-transparent .navbar-brand:hover,
