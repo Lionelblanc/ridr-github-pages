@@ -1,6 +1,7 @@
-#body {
-	font-family: "Ropa Sans";
+body {
+	font-family: "montserrat";
 	font-size: 14px;
+	background-color: rgb(240,240,240);
 }
 
 #footer {
@@ -15,7 +16,7 @@
 }
 
 #footer a:hover {
-	color: green;
+	color: #5FB760;
 }
 .social a {
 	font-size: 24px;
@@ -46,10 +47,18 @@
 	height: 5em;
 	}
 
-.feature p, h4 {
+.feature p {
 	font-weight: 300;
 	letter-spacing: 1 px;
 	font-family: Helvetica;
+	color: black;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0);
+}
+
+.feature h3 {
+	font-weight: 300;
+	letter-spacing: 1 px;
+	font-family: "montserrat";
 	color: black;
 	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0);
 }
@@ -123,6 +132,10 @@
 	font-family: Helvetica;
 	color: black;
 	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0);
+}
+
+.mutuelle img{
+	border-radius: 20%;
 }
 .newsletter	 {
 	font-family: Helvetica;
