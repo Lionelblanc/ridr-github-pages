@@ -123,17 +123,22 @@ body {
 	padding-left: 1em; 
 	padding-right: 1em;
 	padding-top: 1em;
-
 }
+.thumbnail {
+	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
 
 .mutuelle {
 	font-family: Helvetica;
 	color: black;
 	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0);
+
 }
 
 .mutuelle img{
-	border-radius: 20%;
+	border-radius: 10%;
+	
 }
 .newsletter	 {
 	font-family: Helvetica;
