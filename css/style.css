@@ -15,8 +15,7 @@ body {
 #footer {
 	background-color: black;
 	color: white;
-	padding-top: 3em;
-	padding-bottom: 3em;
+	padding: 3em;
 }
 
 #footer a {
@@ -24,7 +23,7 @@ body {
 }
 
 #footer a:hover {
-	color: #5FB760;
+	color: #5CB85C;
 }
 	
 #wrapper {
@@ -55,7 +54,6 @@ body {
 	letter-spacing: 1 px;
 	font-family: Helvetica;
 	color: black;
-	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0);
 }
 
 .feature h3 {
@@ -63,7 +61,6 @@ body {
 	letter-spacing: 1 px;
 	font-family: "montserrat";
 	color: black;
-	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0);
 }
 
 .feature img {
@@ -74,10 +71,11 @@ body {
 	background-color: white;
 }
 
-#navbar-brand {
-  padding-top: 20px;
-  padding-bottom: 10px;
-  color: black; 
+.navbar-brand {
+  padding: 20px;
+  font-size: 40px;
+  padding-left: 1em;
+  font-family: "montserrat";
 }
 
 .navbar-transparent .navbar-nav > li > a:hover,
@@ -86,23 +84,17 @@ body {
 .navbar-transparent .navbar-nav > .open > a,
 .navbar-transparent .navbar-nav > .open > a:hover,
 .navbar-transparent .navbar-nav > .open > a:focus {
-  color: black;
+  color: #5CB85C;
 }
 
-.navbar-transparent .navbar-brand:hover,
-.navbar-transparent .navbar-brand:active,
-.navbar-transparent .navbar-brand:focus {
-  color: black;
-}
-.navbar-brand {
-	font-size: 40px;
-	padding-left: 1em;
-	font-family: Ropa Sans;
-
-}
 .navbar-right {
 	font-family: Helvetica; 
 	font-size: 14px;
+}
+.navbar-default .navbar-brand {
+  color: black;
+}
+
 }
 .search {
 	font-family: Helvetica; 
@@ -126,6 +118,7 @@ body {
 }
 .thumbnail {
 	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+	background: rgb(240,240,240);
 }
 
 
@@ -133,7 +126,7 @@ body {
 	font-family: Helvetica;
 	color: black;
 	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0);
-
+	padding: 4em;
 }
 
 .mutuelle img{
@@ -145,6 +138,18 @@ body {
 	color: black;
 	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0);
 }
+
+.newsletter h2 {
+	font-family: "montserrat";
+}
+
 #subscription{
 	font-family: Helvetica;
+}
+
+.features {
+	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+	padding: 2em;
+	background: white;
+	border-radius: 5px;
 }
